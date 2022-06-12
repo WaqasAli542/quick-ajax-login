@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="quickajaxlogin" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>Login/ Sign Up Popup</label>
+            <tab>wmz</tab>
+            <resource>WMZ_QuickAjaxLogin::config</resource>
+            <group id="configuration" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="1" canRestore="1">
+                <label>Configuration</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1"
+                       showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Login/Sign up via Pop-Up</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Choose 'Yes' to enable Login/Sign up via Pop-Up</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

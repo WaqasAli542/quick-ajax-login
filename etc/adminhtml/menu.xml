@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="WMZ_QuickAjaxLogin::menu"
+             title="Quick Ajax Login"
+             module="WMZ_QuickAjaxLogin"
+             sortOrder="50"
+             resource="WMZ_QuickAjaxLogin::menu"
+             parent="WMZ_Core::wmz"
+        />
+        <add id="WMZ_QuickAjaxLogin::configuration"
+             title="Configuration"
+             module="WMZ_QuickAjaxLogin"
+             sortOrder="10"
+             action="adminhtml/system_config/edit/section/quickajaxlogin"
+             resource="WMZ_QuickAjaxLogin::config"
+             parent="WMZ_QuickAjaxLogin::menu"
+        />
+    </menu>
+</config>
