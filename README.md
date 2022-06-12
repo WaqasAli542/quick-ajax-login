@@ -1,0 +1,2 @@
+# quick-ajax-login
+Customer(s) can Create an Account directly while browsing the website. • Customer(s) can Sign in quickly while browsing the website. • Customer(s) can go to the Sign-in pop-up from Create an Account pop-up. • Customer(s) can go to Create an Account pop-up from the Sign-in pop-up. • Customer account validations are also working as Magento’s default behaviour. • Welcome email will be sent to the customer(s) after registration success.
